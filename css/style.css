@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+    color: #333 ;
+    font-family: Geneva, Tahoma, sans-serif !important;
+}
+p{
+    font-size: 16px !important;
+    color: #777 !important;
+    line-height: 1.8 !important;
+    text-transform: capitalize;
+}
+
+/*-----------------------------------------------------------------*/
+/* Start Nav*/
+nav{
+    background-color: rgba(0, 0, 0, .3);
+    height: 50px;
+    line-height: 50px;
+}
+
+nav .logo i:hover{
+    transform: scale(1.2);
+}
+nav a{
+    padding: 0 20px !important;
+    margin-right: 0 !important;
+    font-size: 14px !important;
+}
+nav .nav-item{
+    position: relative;
+}
+nav .nav-item .nav-link{
+    transition: color .5s , transform .5s;
+    padding: 0 20px !important;
+    font-size: 16px !important;
+    position: relative;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+nav .nav-item .redcolor{
+    color: #d80d0d !important;
+}
+nav .nav-item .nav-link:hover{
+    
+    transform: scale(1.1);
+}
+nav .navbar-nav .unlist{
+    list-style: none;
+    position: absolute;
+    top: 49px;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, .3);
+    height: 0px;
+    text-transform: capitalize;
+    overflow: hidden;
+    transition: height .5s ;
+}
+nav .navbar-nav .nav-item:hover .unlist{
+    height: 150px;
+    
+}
+nav .unlist .list{
+    transition: background-color .5s ;
+}
+nav .unlist .list:hover{
+    background-color: #d80d0d;
+}
+/***end nav****/
+/*-----------------------------------------------------------------*/
+/* Start Header*/
+
+.carousel{
+    height: 625px !important;
+    position: relative;
+}
+header .carousel{
+    position: relative;
+}
+header .carousel .opacity{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+header .carousel .desc{
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    height: 500px !important;
+    width: 50% !important;
+}
+header .carousel .desc h3{
+    color: #fff !important;
+    position: relative;
+    animation: anime 1s;
+    transition: color .5s;
+    font-weight: bold;
+}
+header .carousel .desc h1{
+    color: #fff !important;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    position: relative;
+    animation: anime 1.5s;
+    font-weight: bold;
+}
+header .carousel .desc .colors{
+    color: #d80d0d !important;
+}
+header .carousel .desc p{
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    animation: anime 2s;
+}
+.img22
+{
+    width: 100%;
+    height: 30%;
+}
+/*------------- Start Btn ------------*/
+header .carousel .desc .btn{
+    border-color: #d80d0d !important;
+    padding: 10px 15px !important;
+    transition: background-color .5s,color .5s;
+    text-transform: uppercase;
+    position: relative;
+    animation: anime 2.5s;
+}
+header .carousel .desc .btn{
+    background-color: #d80d0d !important;
+    color: #fff !important;
+}
+header .carousel .desc .btn:hover{
+    background-color: #fff !important;
+    color: #d80d0d !important;
+}
+/*------------- End Btn ------------*/
+/*------------- Start KeyFrames ------------*/
+@keyframes anime{
+    0%{
+        bottom: -400px;
+        opacity: 0;
+    }
+    100%{
+        bottom: 0;
+        opacity: 1;
+    }
+}
+/*------------- End KeyFrames ------------*/
+/*Start Tool */
+.header-tool{
+    width: 40px;
+    height: 110px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 0 3px #333;
+    z-index: 1;
+}
+.header-tool i{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #666;
+    cursor: pointer;
+    transition: color .5s;
+}
+/* End Tool */
+
+/* End Header*/
+/*-----------------------------------------------------------------*/
+/* Start Section One*/
+.section1 .body a{
+    display: inline-block;
+    font-size: 16px !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    transition:margin-left .5s;
+    color: #d80d0d !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+.section1 a:hover{
+    margin-left: 5px;
+}
+.section1 .body{
+    transition: box-shadow .5s;
+}
+.section1 .body:hover{
+    box-shadow: 0 0 20px rgba(32, 31, 31, 0.932);
+}
+/* End Section One*/
+/*-----------------------------------------------------------------*/
+/* Start Section Two*/
+.section2 h1{
+    font-weight: bold;
+    padding: 20px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.section2 a{
+    display: inline-block;
+    font-size: 16px !important;
+    color: #777 !important;
+    text-transform: capitalize;
+    transition: color .5s ,margin-left .5s;
+    border: 1px solid #d80d0d;
+    padding:15px;
+    margin: 20px 0 !important;
+    background-color: #d80d0d;
+    color: #fff !important;
+}
+.section2 .hover-im img{
+    transition: transform .5s;
+}
+.section2 .hover-im:hover img{
+    transform: scale(1.1);
+}
+/* End Section Two*/
+/*-----------------------------------------------------------------*/
+/* Start Section Three*/
+
+/* Start Section-3-Filpcard*/
+.section3 .filp-card{
+    height: 355px;
+	position:relative;
+    transition:transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    border-radius: 20px 0;
+  
+}
+.section3 .filp-card:hover{
+    transform:rotateY(180deg);
+}
+/* Start Front-card*/
+.front{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+    backface-visibility:hidden;
+    transform:perspective(1000px);
+}
+.front img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0;
+}
+/* End Front-card*/
+
+/* Start back-card*/
+.back{
+    position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	backface-visibility:hidden;
+    background-color:#d80d0d;
+	text-align:center;
+    transform:perspective(1000px) rotateY(180deg);
+    border-radius:0 20px;
+}
+.back .cont-back h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+.back .cont-back p{
+    color: #fff !important;
+    padding: 20px 0;
+}
+.back .cont-back a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff !important;
+    color: #d80d0d;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.back .cont-back a i{
+    transition: transform .5s;
+}
+.back .cont-back a i:hover{
+    transform: scale(1.2);
+    color: rgb(43, 43, 233);
+}
+/* End back-card*/
+
+/* End Section-3-Filpcard*/
+
+/* End Section Three*/
+/*-----------------------------------------------------------------*/
+/* Start Section Four*/
+.section4{
+    background-image: url(../img/section-3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, .5);
+}
+/* End Section Four*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/* Start Section Five*/
+.section5{
+    background-color: #d80d0d !important;
+    cursor: pointer;
+}
+.section5 .icon{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.section5 .icon i{
+    color: rgb(187, 181, 181);
+    transition: color .5s ,transform .7s;
+}
+.section5 .icon:hover i{
+    transform: scale(1.2);
+    color: #000 !important;
+}
+.section5 h3{
+    font-size: 40px;
+    color: #fff !important;
+}
+.section5 p{
+    font-size: 24px !important;
+    color: rgb(216, 212, 212) !important;
+}
+/* End Section Five*/
+/*-----------------------------------------------------------------*/
+/* Start Section Six*/
+.section6{
+    background-color: #e1e1e1;
+}
+.section6 .card{
+    background-color: transparent !important;
+    border: 0 !important;
+}
+.section6 .card .cont{
+    border-radius: 15px !important;
+}
+.section6 .cont-img{
+    height: 250px !important;
+}
+.section6 .cont-img img{
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 15px !important;
+}
+.section6 .card-body a{
+    display: inline-block;
+    font-size: 16px !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    transition:margin-left .5s;
+    color: #d80d0d !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+.section6 .card-body a:hover{
+    margin-left: 5px;
+}
+/* End Section Six*/
+/*-----------------------------------------------------------------*/
+/* Start Section Eight*/
+.section8{
+    background-color: #1f1c1ce0 !important;
+    cursor: pointer;
+}
+.section8 .sec-head h3{
+    color: #fff !important;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.section8 .sec-head p{
+    line-height: 2 !important;
+    color: #888 !important;
+    font-size: 14px !important;
+}
+.section8 .sec-head .copy-right{
+    font-size: 12px !important;
+    color: #777 !important;
+    padding: 20px 0;
+}
+.section8 .sec-list ul li{
+    color: #fff !important;
+    list-style: none;
+}
+.section8 .sec-list .li{
+    font-size: 14px !important;
+    color: #888 !important;
+    padding: 5px 0;
+    transition: color .5s,margin-left .5s;
+}
+.section8 .sec-list .li:hover{
+    color: #d80d0d !important;
+    margin-left: 5px;
+}
+/* End Section Eight*/
+/*-----------------------------------------------------------------*/
+/* Start Footer*/
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: #1f1c1ce0 !important;
+}
+footer a{
+    text-transform: uppercase;
+    font-size: 28px !important;
+    color: #d80d0d !important;
+    transition: color .5s;
+}
+
+/* End Footer*/
+/*-----------------------------------------------------------------*/

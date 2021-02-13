@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*************************/
+
+/* Start Nav*/
+nav{
+    background-color: rgba(0, 0, 0, .23);
+    height: 50px;
+    line-height: 50px;
+}
+nav .logo{
+    color: #d80d0d !important;
+}
+nav .logo i:hover{
+    transform: scale(1.2);
+}
+nav a{
+    padding: 0 20px !important;
+    margin-right: 0 !important;
+    font-size: 14px !important;
+}
+nav .nav-item{
+    position: relative;
+}
+nav .nav-item .nav-link{
+    transition: color .5s , transform .5s;
+    padding: 0 20px !important;
+    font-size: 16px !important;
+    position: relative;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+nav .nav-item:first-of-type .nav-link{
+    color: #d80d0d !important;
+}
+nav .nav-item .nav-link:hover{
+    color: #d80d0d !important;
+    transform: scale(1.1);
+}
+nav .navbar-nav .unlist{
+    list-style: none;
+    position: absolute;
+    top: 49px;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, .23);
+    height: 0px;
+    text-transform: capitalize;
+    overflow: hidden;
+    transition: height .5s ;
+}
+nav .navbar-nav .nav-item:hover .unlist{
+    height: 150px;
+    
+}
+nav .unlist .list{
+    transition: background-color .5s ;
+}
+nav .unlist .list:hover{
+    background-color: #000;
+}
+/***end nav****/

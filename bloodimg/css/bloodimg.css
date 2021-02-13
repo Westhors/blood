@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start Nav*/
+nav{
+    background-color: rgba(0, 0, 0, .3);
+    height: 50px;
+    line-height: 50px;
+}
+
+nav .logo i:hover{
+    transform: scale(1.2);
+}
+nav a{
+    padding: 0 20px !important;
+    margin-right: 0 !important;
+    font-size: 14px !important;
+}
+nav .nav-item{
+    position: relative;
+}
+nav .nav-item .nav-link{
+    transition: color .5s , transform .5s;
+    padding: 0 20px !important;
+    font-size: 16px !important;
+    position: relative;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+nav .nav-item .redcolor{
+    color: #d80d0d !important;
+}
+nav .nav-item .nav-link:hover{
+    
+    transform: scale(1.1);
+}
+nav .navbar-nav .unlist{
+    list-style: none;
+    position: absolute;
+    top: 49px;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, .3);
+    height: 0px;
+    text-transform: capitalize;
+    overflow: hidden;
+    transition: height .5s ;
+}
+nav .navbar-nav .nav-item:hover .unlist{
+    height: 150px;
+    
+}
+nav .unlist .list{
+    transition: background-color .5s ;
+}
+nav .unlist .list:hover{
+    background-color: #d80d0d;
+}
+/***end nav****/
+
+
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.portfolio .portfolio-wrap .portfolio-links {
+  opacity: 1;
+  left: 0;
+  right: 0;
+  bottom: -60px;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.portfolio .portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-links {
+  opacity: 1;
+  bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Portfolio 
+--------------------------------------------------------------*/
+
+
+/*---section team----*/
+.team .member {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+
+.team .member .member-info {
+  position: absolute;
+  top: 85%;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 20px 0;
+  color: #2f4d5a;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+ 
+}
+
+
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #2f4d5a;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.team .member h4::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #b1cbd7;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+.img1
+{
+    height: 235px;
+}
+.img2{
+    height: 235px;
+}
+
+
+
+/* bgimg*/
+.imgbg
+{
+    background-image: url(../img/2-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:350px;
+}
+/*-----------------------------*/
+
+
+.section2{
+    background-color: #1f1c1ce0 !important;
+    cursor: pointer;
+}
+.section2 .sec-head h3{
+    color: #fff !important;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.section2 .sec-head p{
+    line-height: 2 !important;
+    color: #888 !important;
+    font-size: 14px !important;
+}
+.section2 .sec-head .copy-right{
+    font-size: 12px !important;
+    color: #777 !important;
+    padding: 20px 0;
+}
+.section2 .sec-list ul li{
+    color: #fff !important;
+    list-style: none;
+}
+.section2 .sec-list .li{
+    font-size: 14px !important;
+    color: #888 !important;
+    padding: 5px 0;
+    transition: color .5s,margin-left .5s;
+}
+.section2 .sec-list .li:hover{
+    color: #d80d0d !important;
+    margin-left: 5px;
+}
+.section2 .sec-list1{
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    
+}
+/* End Section 2*/
+/*-----------------------------------------------------------------*/
+/* Start Footer*/
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: #1f1c1ce0 !important;
+}
+footer a{
+    text-transform: uppercase;
+    font-size: 28px !important;
+    color: #d80d0d !important;
+    transition: color .5s;
+}
+
+/* End Footer*/
+/*-----------------------------------------------------------------*/
+
+

@@ -1,0 +1,209 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Start Nav*/
+nav{
+    background-color: rgba(0, 0, 0, .23);
+    height: 50px;
+    line-height: 50px;
+}
+nav .logo{
+    color: #d80d0d !important;
+}
+nav .logo i:hover{
+    transform: scale(1.2);
+}
+nav a{
+    padding: 0 20px !important;
+    margin-right: 0 !important;
+    font-size: 14px !important;
+}
+nav .nav-item .nav-link{
+    transition: color 1s , transform 1s;
+    padding: 0 20px !important;
+    font-size: 16px !important;
+    position: relative;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+nav .nav-item:first-of-type .nav-link{
+    color: #d80d0d !important;
+}
+nav .nav-item .nav-link:hover{
+    color: #d80d0d !important;
+    transform: scale(1.2);
+}
+
+/* End Nav*/
+/*-----------------------------------------------------------------*/
+/*******SECTION 1***********************/
+.carousel-item
+{
+    position: relative;
+}
+.anim1
+{
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 20%;
+    left: 30%;
+    background-color: rgba(92, 43, 43, 0.5);
+    overflow: hidden;
+}
+/************ANIMATION**************/
+.anim1 .ani h1
+{
+    animation: h 1.5s;
+    position: relative;
+    color: red;
+}
+.anim1 .ani h3
+{
+    animation: p 2s;
+    position: relative;
+    color:red;
+}
+@keyframes h 
+{
+    0%{bottom: -300px; opacity: 0;}
+    100%{bottom: 0;opacity: 1;}
+}
+@keyframes p
+{
+    0%{bottom: -300px; opacity: 0;}
+    100%{ bottom: 0; opacity: 1; }
+}
+/********END ANIMATION*********************/
+
+
+/*********IMG SLID 1 AND 2****************/
+.section1 .simg1
+{
+    width: 100%;
+    height: 500px;
+}
+.section1 .simg2
+{
+    width: 100%;
+    height: 500px;
+}
+/***********END SLID IMG*************/
+
+
+
+
+/******************SECTION2*********************/
+
+
+/******DIV GIVE BLOOD********/
+.section2 .font
+{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(201, 74, 74);
+    margin-left: 150px;
+}
+
+
+.section2 .fas
+{
+    font-size: 60px;
+    color: wheat;
+}
+
+/****END DIV BLOOD********************/
+
+
+/*******END SECTION 2***************/
+
+
+/*----------SECTION 3------------------------------------*/
+
+
+.section3 .img1
+{
+    height: 345px;
+}
+.section3 .img2
+{
+    height: 345px;
+}
+.section3 .img3
+{
+    height: 345px; 
+}
+/*/////HOVER CARD IMG 3IMG////////////*/
+.img1:hover
+{
+    transform: scale(1.1);
+}
+
+.img2:hover
+{
+    transform: scale(1.1);
+}
+
+.img3:hover
+{
+    transform: scale(1.1);
+}
+/*******END END SECTION 3********************/
+
+/*-----------------------------------------------------------------*/
+/* Start Section Eight*/
+.section8{
+    background-color: #1f1c1ce0 !important;
+    cursor: pointer;
+}
+.section8 .sec-head h3{
+    color: #fff !important;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.section8 .sec-head p{
+    line-height: 2 !important;
+    color: #888 !important;
+    font-size: 14px !important;
+}
+.section8 .sec-head .copy-right{
+    font-size: 12px !important;
+    color: #777 !important;
+    padding: 20px 0;
+}
+.section8 .sec-list ul li{
+    color: #fff !important;
+    list-style: none;
+}
+.section8 .sec-list .li{
+    font-size: 14px !important;
+    color: #888 !important;
+    padding: 5px 0;
+    transition: color .5s,margin-left .5s;
+}
+.section8 .sec-list .li:hover{
+    color: #d80d0d !important;
+    margin-left: 5px;
+}
+/* End Section Eight*/
+/*-----------------------------------------------------------------*/
+/* Start Footer*/
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: #1f1c1ce0 !important;
+}
+footer a{
+    text-transform: uppercase;
+    font-size: 28px !important;
+    color: #d80d0d !important;
+    transition: color .5s;
+}
+footer a:hover{
+}
+/* End Footer*/
+/*-----------------------------------------------------------------*/

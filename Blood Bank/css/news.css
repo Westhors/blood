@@ -1,0 +1,48 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+/***************/
+
+
+/***-----------SECTION ONE---------------------------*/
+
+
+/*-------DIV SMALL------*/
+.section1 .font
+{
+    background-color: cadetblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   color: white;
+    width: 150px;
+    height: 50px;
+}
+/*<!-------END-DIV SMALL-------->*/
+
+
+/*--------DIV RED--------------*/
+
+.section1 .line
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 2px;
+    height: 50px;
+}
+/*-------END-DIV RED--------------*/
+
+
+/****SECTION 3*****/
+
+.bgi
+{
+    background-image: url(maxresdefault.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/******END SECTION 3*********/

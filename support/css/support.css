@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----------------------------------------------------------------*/
+/* Start Nav*/
+nav{
+    background-color: rgba(0, 0, 0, .23);
+    height: 50px;
+    line-height: 50px;
+}
+nav .logo{
+    color: #d80d0d !important;
+}
+nav .logo i:hover{
+    transform: scale(1.2);
+}
+nav a{
+    padding: 0 20px !important;
+    margin-right: 0 !important;
+    font-size: 14px !important;
+}
+nav .nav-item .nav-link{
+    transition: color 1s , transform 1s;
+    padding: 0 20px !important;
+    font-size: 16px !important;
+    position: relative;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+nav .nav-item:first-of-type .nav-link{
+    color: #d80d0d !important;
+}
+nav .nav-item .nav-link:hover{
+    color: #d80d0d !important;
+    transform: scale(1.2);
+}
+
+/* End Nav*/
+/*-----------------------------------------------------------------*/
+/* Start Header*/
+header{
+    
+}
+.carousel{
+    height: 625px !important;
+    position: relative;
+}
+header .carousel{
+    position: relative;
+}
+header .carousel .opacity{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+header .carousel .desc{
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    height: 500px !important;
+    width: 40% !important;
+}
+header .carousel .desc h3{
+    color: #000 !important;
+    position: relative;
+    animation: anime 1s;
+    transition: color .5s;
+    font-weight: bold;
+}
+header .carousel .desc h1{
+    color: #fff !important;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    position: relative;
+    animation: anime 1.5s;
+    font-weight: bold;
+}
+header .carousel .desc .colors{
+    color: #d80d0d !important;
+}
+header .carousel .desc p{
+    color: #fff!important;
+    font-size: 18px;
+    position: relative;
+    animation: anime 2s;
+}
+/*------------- Start Btn ------------*/
+header .carousel .desc .btn{
+    border-color: #d80d0d !important;
+    padding: 10px 15px !important;
+    transition: background-color .5s,color .5s;
+    text-transform: uppercase;
+    position: relative;
+    animation: anime 2.5s;
+}
+header .carousel .desc .btn{
+    background-color: #d80d0d !important;
+    color: #fff !important;
+}
+header .carousel .desc .btn:hover{
+    background-color: #fff !important;
+    color: #d80d0d !important;
+}
+/*------------- End Btn ------------*/
+/*------------- Start KeyFrames ------------*/
+@keyframes anime{
+    0%{
+        bottom: -400px;
+        opacity: 0;
+    }
+    100%{
+        bottom: 0;
+        opacity: 1;
+    }
+}
+/*------------- End KeyFrames ------------*/
+/*Start Tool */
+.header-tool{
+    width: 40px;
+    height: 110px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 0 3px #333;
+    z-index: 1;
+}
+.header-tool i{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #666;
+    cursor: pointer;
+    transition: color .5s;
+}
+/* End Tool */
+
+/* End Header*/
+/*-----------------------------------------------------------------*/
+/* Start Section one*/
+.section6{
+    background-color: #e1e1e1;
+}
+.section6 .card{
+    background-color: transparent !important;
+    border: 0 !important;
+}
+.section6 .card .cont{
+    border-radius: 15px !important;
+}
+.section6 .cont-img{
+    height: 250px !important;
+}
+.section6 .cont-img img{
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 15px !important;
+}
+.section6 .card-body a{
+    display: inline-block;
+    font-size: 16px !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    transition:margin-left .5s;
+    color: #d80d0d !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+.section6 .card-body a:hover{
+    margin-left: 5px;
+}
+/* End Section one*/
+/*-----------------------------------------------------------------*/
+/* Start Section two*/
+.section8{
+    background-color: #1f1c1ce0 !important;
+    cursor: pointer;
+}
+.section8 .sec-head h3{
+    color: #fff !important;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.section8 .sec-head p{
+    line-height: 2 !important;
+    color: #888 !important;
+    font-size: 14px !important;
+}
+.section8 .sec-head .copy-right{
+    font-size: 12px !important;
+    color: #777 !important;
+    padding: 20px 0;
+}
+.section8 .sec-list ul li{
+    color: #fff !important;
+    list-style: none;
+}
+.section8 .sec-list .li{
+    font-size: 14px !important;
+    color: #888 !important;
+    padding: 5px 0;
+    transition: color .5s,margin-left .5s;
+}
+.section8 .sec-list .li:hover{
+    color: #d80d0d !important;
+    margin-left: 5px;
+}
+/* End Section two*/
+/*-----------------------------------------------------------------*/
+/* Start Footer*/
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: #1f1c1ce0 !important;
+}
+footer a{
+    text-transform: uppercase;
+    font-size: 28px !important;
+    color: #d80d0d !important;
+    transition: color .5s;
+}
+footer a:hover{
+}
+/* End Footer*/
+/*-----------------------------------------------------------------*/

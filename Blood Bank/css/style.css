@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/***-STRT SECTION ONE--font slid img--------*/
+.section1 .font
+{
+    color: red;
+  font-size:  xx-large;
+  position: relative;
+  top: -100px;
+  right: 180px; 
+  font-family: 'Philosopher', sans-serif;
+}
+.section1 .font p 
+{
+    font-size: 20px;
+}
+.section1 .fa-hand-holding-water
+{
+    font-size: 50px;
+}
+/**---end font slid img-------*/
+
+/***----------END SECTION ONE----*/
+
+
+
+/**********SECTION 2 ******************/ 
+.section2 .fa-hand-holding-heart
+{
+    color: red;
+    font-size: 50px;
+}
+/******--ANIMATION SECTION 2----*/
+.section2 p
+{
+   
+    animation: hh 1s;
+}
+@keyframes hh
+{
+    0%{ bottom: -100;opacity: 1;}
+    100%{bottom: 0;opacity: 0;}
+}
+.section2 .fa-hand-holding-heart
+{
+position: relative;
+animation: h 3s infinite alternate;
+}
+@keyframes h 
+{
+    0%{left: 0; opacity: 0;}
+    100%{left: 50px; opacity: 1;}
+  
+}
+
+/*********END SECTION 2**************/
+
+/******************SECTION FOUR*4********/
+.section4 .img1
+{
+    height: 235px;
+}
+.section4 .img2
+{
+    height: 235px;  
+}

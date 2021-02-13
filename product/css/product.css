@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------*/
+/* Start Nav*/
+/* Start Nav*/
+nav{
+    background-color: rgba(0, 0, 0, .3);
+    height: 50px;
+    line-height: 50px;
+}
+
+nav .logo i:hover{
+    transform: scale(1.2);
+}
+nav a{
+    padding: 0 20px !important;
+    margin-right: 0 !important;
+    font-size: 14px !important;
+}
+nav .nav-item{
+    position: relative;
+}
+nav .nav-item .nav-link{
+    transition: color .5s , transform .5s;
+    padding: 0 20px !important;
+    font-size: 16px !important;
+    position: relative;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+nav .nav-item .redcolor{
+    color: #d80d0d !important;
+}
+nav .nav-item .nav-link:hover{
+    
+    transform: scale(1.1);
+}
+nav .navbar-nav .unlist{
+    list-style: none;
+    position: absolute;
+    top: 49px;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, .3);
+    height: 0px;
+    text-transform: capitalize;
+    overflow: hidden;
+    transition: height .5s ;
+}
+nav .navbar-nav .nav-item:hover .unlist{
+    height: 150px;
+    
+}
+nav .unlist .list{
+    transition: background-color .5s ;
+}
+nav .unlist .list:hover{
+    background-color: #d80d0d;
+}
+/***end nav****/
+/*-----------------------------------------------------------------*/
+
+/* End Nav*/
+/*-----------------------------------------------------------------*/
+/***-STRT SECTION ONE--font slid img--------*/
+.section1 .font
+{
+    color: red;
+  font-size:  xx-large;
+  position: relative;
+  top: -100px;
+  right: 180px; 
+  font-family: 'Philosopher', sans-serif;
+}
+.section1 .font p 
+{
+    font-size: 20px;
+}
+.section1 .fa-hand-holding-water
+{
+    font-size: 50px;
+}
+/**---end font slid img-------*/
+
+/***----------END SECTION ONE----*/
+
+
+
+/**********SECTION 2 ******************/ 
+.section2 .fa-hand-holding-heart
+{
+    color: red;
+    font-size: 50px;
+}
+/******--ANIMATION SECTION 2----*/
+.section2 p
+{
+   
+    animation: hh 1s;
+}
+@keyframes hh
+{
+    0%{ bottom: -100;opacity: 1;}
+    100%{bottom: 0;opacity: 0;}
+}
+.section2 .fa-hand-holding-heart
+{
+position: relative;
+animation: h 3s infinite alternate;
+}
+@keyframes h 
+{
+    0%{left: 0; opacity: 0;}
+    100%{left: 50px; opacity: 1;}
+  
+}
+
+/*********END SECTION 2**************/
+
+/******************SECTION FOUR*4********/
+.section4 .img1
+{
+    height: 235px;
+}
+.section4 .img2
+{
+    height: 235px;  
+}
+
+/*-----------------------------------------------------------------*/
+/* Start Section Eight*/
+.section8{
+    background-color: #1f1c1ce0 !important;
+    cursor: pointer;
+}
+.section8 .sec-head h3{
+    color: #fff !important;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.section8 .sec-head p{
+    line-height: 2 !important;
+    color: #888 !important;
+    font-size: 14px !important;
+}
+.section8 .sec-head .copy-right{
+    font-size: 12px !important;
+    color: #777 !important;
+    padding: 20px 0;
+}
+.section8 .sec-list ul li{
+    color: #fff !important;
+    list-style: none;
+}
+.section8 .sec-list .li{
+    font-size: 14px !important;
+    color: #888 !important;
+    padding: 5px 0;
+    transition: color .5s,margin-left .5s;
+}
+.section8 .sec-list .li:hover{
+    color: #d80d0d !important;
+    margin-left: 5px;
+}
+/* End Section Eight*/
+/*-----------------------------------------------------------------*/
+/* Start Footer*/
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: #1f1c1ce0 !important;
+}
+footer a{
+    text-transform: uppercase;
+    font-size: 28px !important;
+    color: #d80d0d !important;
+    transition: color .5s;
+}
+footer a:hover{
+}
+/* End Footer*/
+/*-----------------------------------------------------------------*/

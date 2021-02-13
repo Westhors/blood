@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/************************/
+/*****div bg**BACKGROIND IMG****/
+.bg
+{
+    background-image: url(1-blood\ cells.jpg);
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat:no-repeat
+    
+}
+/*****end div bg*****************/
+
+
+
+/*------SECTION 1-------------------*/
+   
+/*-----END-SECTION 1-------------------*/
+
+
+
+/*************SECTION TWO******/
+
+
+/********div line***********/
+.line
+{
+    width: 100%;
+    height: 1px;
+    background-color: red;
+}
+
+/*************div line1******/
+.line1
+{
+    width: 30px;
+    height: 4px;
+    background-color: red;
+}
+
+
+/******************CARD IMG...... 3 IMG ****************/
+.section2 .img1
+{
+    height: 345px;
+}
+.section2 .img2
+{
+    height: 345px;
+}
+/*/////HOVER CARD IMG 3IMG////////////*/
+.img1:hover
+{
+    transform: scale(1.1);
+}
+
+.img2:hover
+{
+    transform: scale(1.1);
+}
+
+.img3:hover
+{
+    transform: scale(1.1);
+}
+/*******END END SECTION 2********************/
